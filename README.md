@@ -1,5 +1,11 @@
 # TypeScript
 
+**体系化笔记（对照官方 Handbook / Docs）**：见 [`docs/README.md`](./docs/README.md)。  
+**《Effective TypeScript》第二版读书整理（原创笔记，非原文）**：见 [`docs/effective-typescript/README.md`](./docs/effective-typescript/README.md)。  
+**官方文档**：[typescriptlang.org/docs](https://www.typescriptlang.org/docs/) · [Handbook 导言](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+---
+
 视频教程
 <https://www.bilibili.com/video/av38379328/?p=10>
 
@@ -21,7 +27,7 @@ TypeScript 与 JavaScript 有什么不同?
 安装 Typescript
 
 ```bash
-sduo npm i typescript -g
+sudo npm i typescript -g
 yarn add typescript
 ```
 
