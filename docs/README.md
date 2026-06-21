@@ -42,7 +42,7 @@
 | [infer.md](./supplements/infer.md) | 05 条件类型 | `infer.ts`, `condition-type.ts` |
 | [variance.md](./supplements/variance.md) | 类型兼容 | （概念文） |
 
-早期零散笔记 [`00.md`](./00.md) 内容已合并进 00–01，保留作历史参考。
+早期零散笔记 `00.md` 内容已合并进 [00-定位与目标](./00-定位与目标.md) 与 [01-基础](./01-基础.md)，原文件已移除。
 
 ---
 
