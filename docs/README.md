@@ -26,8 +26,23 @@
 | 7 | [06-类与模块](./06-类与模块.md) | 类、`implements`、ESM/CJS 要点 |
 | 8 | [07-工程与配置](./07-工程与配置.md) | `tsconfig`、`tsc`、严格选项 |
 | 9 | [08-声明文件与 JS 互操作](./08-声明文件与JS互操作.md) | `.d.ts`、JSDoc、`allowJs` |
+| 10 | [09-仓库实践与入门速查](./09-仓库实践与入门速查.md) | 安装、`tsc`、本地项目、迁移与速查 |
 
-另有早期零散笔记 [`00.md`](./00.md)，与上表体系独立，可作补充。
+---
+
+## 深度专题（supplements）
+
+在 00–09 体系之外，下列文档对单一主题做更展开说明，并链接到 [`base/`](../base/) 示例代码：
+
+| 文档 | 对应 Handbook | 本地示例 |
+|------|---------------|----------|
+| [generic-type.md](./supplements/generic-type.md) | 05 泛型 | `universal-type.ts`, `db-operate.ts` |
+| [overload.md](./supplements/overload.md) | 04 函数重载 | `function.ts`, `overload-fn.ts` |
+| [interface-class.md](./supplements/interface-class.md) | 06 类与接口 | `interface-class.ts` |
+| [infer.md](./supplements/infer.md) | 05 条件类型 | `infer.ts`, `condition-type.ts` |
+| [variance.md](./supplements/variance.md) | 类型兼容 | （概念文） |
+
+早期零散笔记 [`00.md`](./00.md) 内容已合并进 00–01，保留作历史参考。
 
 ---
 
@@ -41,4 +56,4 @@
 
 ## 本地项目
 
-仓库根目录 `README.md` 保留安装与 `tsconfig` 片段；**体系化笔记以本 `docs/` 为准**。
+仓库结构、安装、`tsconfig` 速查与 JS 迁移步骤见 [09-仓库实践与入门速查](./09-仓库实践与入门速查.md)；根目录 [`README.md`](../README.md) 为仓库入口索引。

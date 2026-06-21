@@ -1,0 +1,9 @@
+[submodule "examples/getts"]
+	path = examples/getts
+	url = git@github.com:yfain/getts.git
+[submodule "examples/block-chain"]
+	path = examples/block-chain
+	url = git@github.com:DreamerKing/block-chain.git
+[submodule "examples/blockchain-p2p"]
+	path = examples/blockchain-p2p
+	url = git@github.com:antonmoiseev/blockchain-p2p.git

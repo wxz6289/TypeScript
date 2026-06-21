@@ -1,7 +1,7 @@
 # 《Effective TypeScript》第二版 · 学习笔记
 
-> 原书：*Effective TypeScript: 83 Specific Ways to Improve Your TypeScript*, Second Edition（2024），作者 Dan Vanderkam，O'Reilly。  
-> 中文引进版常见译名：**《Effective TypeScript：精进 TypeScript 代码的 83 个实践方法（第二版）》**。
+> 原书：*Effective TypeScript: 83 Specific Ways to Improve Your TypeScript*, Second Edition（2024），作者 Dan Vanderkam，O'Reilly。
+> 中文版译名：**《Effective TypeScript：精进 TypeScript 代码的 83 个实践方法（第二版）》**。
 
 本目录为**原创整理**：依据原书公开的**章节划分与 Item 编号体系**（见 [O'Reilly 书目页](https://www.oreilly.com/library/view/effective-typescript-2nd/9781098155056/) 与 [作者博客第二版说明](https://effectivetypescript.com/2024/05/21/second-edition/)），用中文归纳**心智模型、实践要点与示例**，便于系统复习；**不能替代阅读原文**，亦未逐条复述书中叙述与全部代码。
 
@@ -9,10 +9,10 @@
 
 ## 与仓库内其它文档的关系
 
-- **官方语言与配置**：[`../README.md`](../README.md) 与 [`../01-基础.md`](../01-基础.md) 等。  
+- **官方语言与配置**：[`../01-基础.md`](../01-基础.md)、[`../07-工程与配置.md`](../07-工程与配置.md) 等；本地实践见 [`../09-仓库实践与入门速查.md`](../09-仓库实践与入门速查.md)。
 - **本书**：侧重「**如何用得更好**」— 类型设计、推断、不健全性、`any`、泛型与类型层编程、工程化与迁移等。
 
-**按 Item 的短笔记（83 条）**：[items/README.md](./items/README.md)  
+**按 Item 的短笔记（83 条）**：[items/README.md](./items/README.md)
 **章末自测题 + 思路**：[quizzes/README.md](./quizzes/README.md)
 
 ---
@@ -40,8 +40,8 @@
 
 ## 正版获取与版本信息
 
-- O'Reilly 图书页（含在线阅读入口）：[Effective TypeScript, 2nd Edition](https://www.oreilly.com/library/view/effective-typescript-2nd/9781098155056/)  
-- 作者第二版公告（更新要点）：[Now Available: Second Edition](https://effectivetypescript.com/2024/05/21/second-edition/)  
+- O'Reilly 图书页（含在线阅读入口）：[Effective TypeScript, 2nd Edition](https://www.oreilly.com/library/view/effective-typescript-2nd/9781098155056/)
+- 作者第二版公告（更新要点）：[Now Available: Second Edition](https://effectivetypescript.com/2024/05/21/second-edition/)
 - 第一版 → 第二版 **Item 对照附录**（原书 PDF/在线版）：[Appendix: Item Mapping](https://www.oreilly.com/library/view/effective-typescript-2nd/9781098155056/app01.html)
 
 ISBN（纸书/电子书以渠道为准）：**9781098155056**（见 O'Reilly 书目页）。
@@ -58,8 +58,8 @@ ISBN（纸书/电子书以渠道为准）：**9781098155056**（见 O'Reilly 书
 
 若你读过**第一版**：请先阅读 [第一版与第二版对照](./第一版与第二版对照.md)，再按下列顺序补读新增章节（第 6–7 章）与重大改写条目所在章。
 
-1. 先读 **第 1–3 章** 建立心智模型与推断直觉。  
-2. **第 4 章** 类型设计是全书「性价比」最高部分之一。  
-3. **第 5–6 章** 处理现实项目中的边界：不健全、`any`、以及类型层技巧。  
-4. **第 7 章** 当「菜谱」查阅。  
+1. 先读 **第 1–3 章** 建立心智模型与推断直觉。
+2. **第 4 章** 类型设计是全书「性价比」最高部分之一。
+3. **第 5–6 章** 处理现实项目中的边界：不健全、`any`、以及类型层技巧。
+4. **第 7 章** 当「菜谱」查阅。
 5. **第 8–10 章** 与团队协作、声明文件、运行与迁移强相关。
